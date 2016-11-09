@@ -1,0 +1,733 @@
+﻿Log file open, 11/08/16 11:49:04
+LogInit:Display: Running engine for game: GameProg
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-510807469) SRandInit(-510807469).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.048369
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3106830
+LogInit: Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3106830
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Aug 30 2016 18:11:39
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.08-10.49.04:776][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-10.49.04:776][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.08-10.49.04:810][  0]LogInit: Computer: JEREMIE-PC
+[2016.11.08-10.49.04:810][  0]LogInit: User: Jeremie
+[2016.11.08-10.49.04:810][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.11.08-10.49.04:810][  0]LogInit: High frequency timer resolution =2.825673 MHz
+[2016.11.08-10.49.04:810][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.11.08-10.49.04:810][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.08-10.49.04:810][  0]LogMemory: Process Physical Memory: 256.76 MB used, 256.76 MB peak
+[2016.11.08-10.49.04:810][  0]LogMemory: Process Virtual Memory: 261.06 MB used, 261.06 MB peak
+[2016.11.08-10.49.04:810][  0]LogMemory: Physical Memory: 3449.57 MB used, 8060.85 MB total
+[2016.11.08-10.49.04:810][  0]LogMemory: Virtual Memory: 591.22 MB used, 8388608.00 MB total
+[2016.11.08-10.49.04:847][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.11.08-10.49.05:462][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.08-10.49.05:498][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2016.11.08-10.49.05:498][  0]LogD3D11RHI:       1999/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.08-10.49.05:518][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 635M' (Feature Level 11_0)
+[2016.11.08-10.49.05:518][  0]LogD3D11RHI:       1999/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2016.11.08-10.49.05:518][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.08-10.49.05:528][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.08-10.49.05:528][  0]LogD3D11RHI:     GPU DeviceId: 0xde3 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.08-10.49.05:528][  0]LogWindows: EnumDisplayDevices:
+[2016.11.08-10.49.05:528][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2016.11.08-10.49.05:528][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.11.08-10.49.05:529][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.11.08-10.49.05:529][  0]LogWindows:    3. 'NVIDIA GeForce GT 635M' (P:0 D:0)
+[2016.11.08-10.49.05:529][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.11.08-10.49.05:530][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.11.08-10.49.05:530][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.11.08-10.49.05:530][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2016.11.08-10.49.05:530][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 635M
+[2016.11.08-10.49.05:530][  0]LogD3D11RHI:   Driver Version: 362.00 (internal:10.18.13.6200, unified:362.00)
+[2016.11.08-10.49.05:530][  0]LogD3D11RHI:      Driver Date: 2-23-2016
+[2016.11.08-10.49.05:530][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.08-10.49.05:547][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.08-10.49.05:562][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.08-10.49.05:562][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Intermediate/Shaders/WorkingDirectory/5116/).
+[2016.11.08-10.49.05:562][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeremie/AppData/Local/Temp/UnrealShaderWorkingDir/46CED40C4D03A31B8B296AB766FEA35A/'.
+[2016.11.08-10.49.05:562][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.08-10.49.06:837][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.08-10.49.06:845][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.08-10.49.06:853][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.08-10.49.06:862][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.08-10.49.06:871][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.08-10.49.06:878][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.08-10.49.06:885][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.08-10.49.06:893][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.08-10.49.06:901][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.08-10.49.06:909][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.08-10.49.06:916][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.08-10.49.06:931][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.08-10.49.06:932][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.08-10.49.06:932][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.08-10.49.06:957][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.08-10.49.06:967][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.08-10.49.06:975][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.08-10.49.06:983][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.08-10.49.06:991][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.08-10.49.06:999][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.08-10.49.06:999][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.08-10.49.07:070][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.08-10.49.07:144][  0]LogDerivedDataCache: Loaded boot cache 0.07s 62MB C:/Users/Jeremie/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-10.49.07:144][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jeremie/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.11.08-10.49.07:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.08-10.49.07:144][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.08-10.49.07:144][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.08-10.49.07:144][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.08-10.49.07:171][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.08-10.49.07:183][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.08-10.49.07:453][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.08-10.49.07:458][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.08-10.49.07:461][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.08-10.49.07:619][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.08-10.49.07:619][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.08-10.49.07:619][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.08-10.49.07:958][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: gameprog, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 2158523463
+[2016.11.08-10.49.07:996][  0]LogAssetRegistry: FAssetRegistry took 0.0196 seconds to start up
+[2016.11.08-10.49.08:013][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015136 seconds
+[2016.11.08-10.49.08:020][  0]LogUObjectArray: 29777 objects as part of root set at end of initial load.
+[2016.11.08-10.49.08:020][  0]LogUObjectAllocator: 6124704 out of 0 bytes used by permanent object pool.
+[2016.11.08-10.49.08:020][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.08-10.49.08:026][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.08-10.49.08:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-10.49.08:235][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.08-10.49.08:836][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.11.08-10.49.08:853][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.08-10.49.09:079][  0]SourceControl: Info Source control is disabled
+[2016.11.08-10.49.09:146][  0]SourceControl: Info Source control is disabled
+[2016.11.08-10.49.09:155][  0]SourceControl: Info Source control is disabled
+[2016.11.08-10.49.09:161][  0]SourceControl: Info Source control is disabled
+[2016.11.08-10.49.09:443][  0]LogEngine: Initializing Engine...
+[2016.11.08-10.49.09:444][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.08-10.49.09:623][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.08-10.49.09:632][  0]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.49.09:673][  0]LogInit: FAudioDevice initialized.
+[2016.11.08-10.49.09:705][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/Jeremie/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.11.08-10.49.09:710][  0]LogInit: Texture streaming: Enabled
+[2016.11.08-10.49.09:739][  0]LogInit: Transaction tracking system initialized
+[2016.11.08-10.49.09:760][  0]BlueprintLog: New page: Editor Load
+[2016.11.08-10.49.09:903][  0]LocalizationService: Info Localization service is disabled
+[2016.11.08-10.49.10:211][  0]LogConsoleResponse:Display: 
+[2016.11.08-10.49.10:343][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.08-10.49.10:343][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.08-10.49.10:469][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/' took 0.02s
+[2016.11.08-10.49.10:469][  0]SourceControl: Info Source control is disabled
+[2016.11.08-10.49.10:469][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.08-10.49.10:505][  0]LightingResults: New page: Lighting Build
+[2016.11.08-10.49.10:507][  0]MapCheck: New page: Map Check
+[2016.11.08-10.49.10:507][  0]LightingResults: New page: Lighting Build
+[2016.11.08-10.49.13:595][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.49.13:703][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.08-10.49.13:704][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.08-10.49.13:750][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.629ms to complete.
+[2016.11.08-10.49.13:750][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 3.281
+[2016.11.08-10.49.13:855][  0]LogCollectionManager: Loaded 0 collections in 0.001388 seconds
+[2016.11.08-10.49.13:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/Collections/' took 0.01s
+[2016.11.08-10.49.13:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/Developers/Jeremie/Collections/' took 0.01s
+[2016.11.08-10.49.13:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/Collections/' took 0.01s
+[2016.11.08-10.49.13:894][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.08-10.49.13:905][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2156 classes and 421 folders.
+[2016.11.08-10.49.13:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.08-10.49.13:908][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.08-10.49.13:909][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.11.08-10.49.13:912][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.08-10.49.13:951][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.08-10.49.13:955][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.08-10.49.13:969][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.08-10.49.13:972][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.08-10.49.13:998][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.08-10.49.13:998][  0]LogLoad: (Engine Initialization) Total time: 10.35 seconds
+[2016.11.08-10.49.13:998][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.41 seconds
+[2016.11.08-10.49.13:998][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.11.08-10.49.14:010][  0]LogOcInput: OculusInput pre-init called
+[2016.11.08-10.49.14:028][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.11.08-10.49.14:171][  0]LogRenderer: Reallocating scene render targets to support 860x456 (Frame:2).
+[2016.11.08-10.49.14:661][  2]LogAssetRegistry: Asset discovery search completed in 6.6852 seconds
+[2016.11.08-10.49.14:661][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.08-10.49.14:661][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.11.08-10.49.17:114][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.08-10.49.27:615][120]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door194)
+[2016.11.08-10.49.30:679][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.30:679][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.49.30:680][406]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:49:30 PM)
+[2016.11.08-10.49.30:680][406]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.49.30:703][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022610s)
+[2016.11.08-10.49.30:704][406]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.49.30:704][406]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2016.11.08-10.49.30:704][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024138s)
+[2016.11.08-10.49.30:749][406]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.49.30:766][406]LogInit: FAudioDevice initialized.
+[2016.11.08-10.49.30:963][406]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.49.30:969][406]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.49.30
+[2016.11.08-10.49.30:970][406]LogWorld: Bringing up level for play took: 0.005741
+[2016.11.08-10.49.30:973][406]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.11.08-10.49.30:973][406]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.49.30:973][406]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.49.30:973][406]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.49.30:974][406]LogBlueprintUserMessages: [Lever_482] X=820.000 Y=380.000 Z=110.000
+[2016.11.08-10.49.30:974][406]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.49.30:974][406]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.507
+[2016.11.08-10.49.30:974][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.38:035][881]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.38:079][881]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.39:174][967]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door194)
+[2016.11.08-10.49.39:963][ 42]Cmd: DELETE
+[2016.11.08-10.49.39:963][ 42]Cmd: ACTOR DELETE
+[2016.11.08-10.49.39:967][ 42]LogEditorActor: Deleted Actor: Lever_C
+[2016.11.08-10.49.39:988][ 42]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.11.08-10.49.40:739][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.40:739][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.49.40:740][111]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:49:40 PM)
+[2016.11.08-10.49.40:740][111]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.49.40:760][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019942s)
+[2016.11.08-10.49.40:760][111]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.49.40:761][111]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2016.11.08-10.49.40:761][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.020981s)
+[2016.11.08-10.49.40:793][111]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.49.40:806][111]LogInit: FAudioDevice initialized.
+[2016.11.08-10.49.40:837][111]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.49.40:843][111]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.49.40
+[2016.11.08-10.49.40:844][111]LogWorld: Bringing up level for play took: 0.006983
+[2016.11.08-10.49.40:846][111]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.49.40:846][111]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.49.40:846][111]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.49.40:846][111]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.49.40:846][111]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.379
+[2016.11.08-10.49.40:846][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.42:447][200]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.42:486][200]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.43:054][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.08-10.49.47:578][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.49.47:579][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.49.47:579][607]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:49:47 PM)
+[2016.11.08-10.49.47:579][607]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.49.47:601][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021733s)
+[2016.11.08-10.49.47:601][607]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.49.47:601][607]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2016.11.08-10.49.47:602][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.022956s)
+[2016.11.08-10.49.47:629][607]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.49.47:643][607]LogInit: FAudioDevice initialized.
+[2016.11.08-10.49.47:670][607]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.49.47:677][607]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.49.47
+[2016.11.08-10.49.47:678][607]LogWorld: Bringing up level for play took: 0.006834
+[2016.11.08-10.49.47:679][607]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.49.47:679][607]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.49.47:679][607]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.49.47:679][607]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.49.47:679][607]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.788
+[2016.11.08-10.49.47:680][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.02:319][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.02:376][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.06:840][196]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.11.08-10.51.28:184][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.11.08-10.51.30:033][ 90]LogSavePackage: Save=702.95ms
+[2016.11.08-10.51.30:033][ 90]LogSavePackage: Moving '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/SideScrollerExampleMap2BAEF2A1415BC74DAB9800BA6C78D648.tmp' to '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.11.08-10.51.30:040][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.11.08-10.51.31:634][231]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2016.11.08-10.51.32:315][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.32:315][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.51.32:315][283]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:51:32 PM)
+[2016.11.08-10.51.32:315][283]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.51.32:337][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021428s)
+[2016.11.08-10.51.32:337][283]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.51.32:338][283]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2016.11.08-10.51.32:338][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.022471s)
+[2016.11.08-10.51.32:365][283]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.51.32:379][283]LogInit: FAudioDevice initialized.
+[2016.11.08-10.51.32:411][283]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.51.32:418][283]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.51.32
+[2016.11.08-10.51.32:419][283]LogWorld: Bringing up level for play took: 0.007002
+[2016.11.08-10.51.32:420][283]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.51.32:420][283]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.51.32:420][283]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.51.32:420][283]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.51.32:420][283]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.049
+[2016.11.08-10.51.32:420][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.38:590][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.38:643][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.39:615][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.08-10.51.41:534][909]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.41:534][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.51.41:534][909]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:51:41 PM)
+[2016.11.08-10.51.41:534][909]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.51.41:558][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023825s)
+[2016.11.08-10.51.41:559][909]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.51.41:559][909]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2016.11.08-10.51.41:559][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025033s)
+[2016.11.08-10.51.41:582][909]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.51.41:595][909]LogInit: FAudioDevice initialized.
+[2016.11.08-10.51.41:623][909]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.51.41:629][909]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.51.41
+[2016.11.08-10.51.41:630][909]LogWorld: Bringing up level for play took: 0.006046
+[2016.11.08-10.51.41:631][909]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.51.41:631][909]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.51.41:631][909]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.51.41:631][909]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.51.41:632][909]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.839
+[2016.11.08-10.51.41:632][909]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.50:960][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.51:015][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.51.52:654][676]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.11.08-10.51.53:783][767]Cmd: TRANSACTION UNDO
+[2016.11.08-10.51.53:783][767]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.08-10.51.53:975][775]Cmd: TRANSACTION UNDO
+[2016.11.08-10.51.53:975][775]LogEditorTransaction: Undo Move Actors
+[2016.11.08-10.51.54:174][780]Cmd: TRANSACTION UNDO
+[2016.11.08-10.51.54:174][780]LogEditorTransaction: Undo Clicking on Actors
+[2016.11.08-10.51.55:899][921]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.11.08-10.52.02:009][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.52.02:009][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.52.02:009][411]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:52:02 PM)
+[2016.11.08-10.52.02:009][411]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.52.02:033][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023843s)
+[2016.11.08-10.52.02:034][411]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.52.02:034][411]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2016.11.08-10.52.02:035][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025162s)
+[2016.11.08-10.52.02:090][411]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.52.02:102][411]LogInit: FAudioDevice initialized.
+[2016.11.08-10.52.02:134][411]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.52.02:139][411]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.52.02
+[2016.11.08-10.52.02:140][411]LogWorld: Bringing up level for play took: 0.005514
+[2016.11.08-10.52.02:141][411]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.52.02:141][411]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.52.02:141][411]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.52.02:141][411]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.52.02:141][411]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.33
+[2016.11.08-10.52.02:141][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.52.04:750][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.52.04:829][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.52.06:213][580]LogSavePackage: Save=623.58ms
+[2016.11.08-10.52.06:213][580]LogSavePackage: Moving '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/SideScrollerExampleMapC1E50AF54EA07F935C68E78025B478DF.tmp' to '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.11.08-10.52.06:218][580]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.11.08-10.52.19:669][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.52.19:670][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.08-10.52.19:670][832]PIE: New page: PIE session: SideScrollerExampleMap (Nov 8, 2016, 12:52:19 PM)
+[2016.11.08-10.52.19:670][832]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.08-10.52.19:693][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023081s)
+[2016.11.08-10.52.19:694][832]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.08-10.52.19:694][832]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2016.11.08-10.52.19:694][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024458s)
+[2016.11.08-10.52.19:745][832]LogInit: XAudio2 using 'Haut-parleurs (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.08-10.52.19:760][832]LogInit: FAudioDevice initialized.
+[2016.11.08-10.52.19:788][832]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.08-10.52.19:793][832]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.11.08-11.52.19
+[2016.11.08-10.52.19:794][832]LogWorld: Bringing up level for play took: 0.005734
+[2016.11.08-10.52.19:795][832]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.52.19:795][832]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.11.08-10.52.19:795][832]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.52.19:795][832]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.11.08-10.52.19:795][832]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.676
+[2016.11.08-10.52.19:795][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.53.00:156][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.53.00:236][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.08-10.56.06:797][689]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2016.11.08-10.56.07:811][747]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.11.08-10.56.24:391][335]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.11.08-10.57.19:800][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-10.57.20:631][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-10.57.21:169][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-10.57.21:549][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-10.57.21:969][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-10.57.22:367][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.08-10.57.22:792][509]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2016.11.08-10.58.25:024][100]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2016.11.08-10.59.11:692][161]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.11.08-10.59.11:973][161]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.11.08-11.02.47:435][338]LogSavePackage: Save=683.47ms
+[2016.11.08-11.02.47:435][338]LogSavePackage: Moving '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/SideScrollerExampleMap_Auto1B1124FA64B69D41F37492EBA2BD12D83.tmp' to '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2016.11.08-11.02.47:439][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2016.11.08-11.02.47:442][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.780
+[2016.11.08-11.02.47:442][338]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.780
+[2016.11.08-11.21.53:568][321]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.11.08-11.21.54:427][321]LogSavePackage: Save=312.69ms
+[2016.11.08-11.21.54:427][321]LogSavePackage: Moving '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/SideScrollerCharacter42D7DCD44B3CDF0C761D46A71E654B9B.tmp' to '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Blueprints/Characters/SideScrollerCharacter.uasset'
+[2016.11.08-11.21.54:435][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Blueprints/Characters/SideScrollerCharacter.uasset
+[2016.11.08-11.21.56:846][365]LogSavePackage: Save=733.21ms
+[2016.11.08-11.21.56:846][365]LogSavePackage: Moving '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/SideScrollerExampleMapE231425840EB07B5C149A49990F48524.tmp' to '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.11.08-11.21.56:855][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.11.08-11.21.56:997][365]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 1.025
+[2016.11.08-11.23.30:496][441]Cmd: QUIT_EDITOR
+[2016.11.08-11.23.30:560][441]LogExit: Preparing to exit.
+[2016.11.08-11.23.31:201][441]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/' was aborted.
+[2016.11.08-11.23.31:236][441]LogExit: Editor shut down
+[2016.11.08-11.23.31:237][441]LogExit: Transaction tracking system shut down
+[2016.11.08-11.23.31:411][441]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.08-11.23.31:411][441]LogExit: Object subsystem successfully closed.
+[2016.11.08-11.23.31:426][441]LogD3D11RHI: Shutdown
+[2016.11.08-11.23.31:426][441]LogD3D11RHI: CleanupD3DDevice
+[2016.11.08-11.23.32:280][441]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module BlueprintGraph (238)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (237)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (236)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.11.08-11.23.32:318][441]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.11.08-11.23.32:318][441]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.11.08-11.23.32:319][441]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/Collections/' was aborted.
+[2016.11.08-11.23.32:319][441]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/Developers/Jeremie/Collections/' was aborted.
+[2016.11.08-11.23.32:319][441]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Saved/Collections/' was aborted.
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.11.08-11.23.32:319][441]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.11.08-11.23.32:320][441]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.11.08-11.23.33:134][441]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.11.08-11.23.33:134][441]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.11.08-11.23.33:134][441]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.11.08-11.23.33:134][441]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.11.08-11.23.33:134][441]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.11.08-11.23.33:135][441]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.11.08-11.23.33:136][441]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.11.08-11.23.33:136][441]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.11.08-11.23.33:136][441]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.11.08-11.23.33:136][441]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.11.08-11.23.33:136][441]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.11.08-11.23.33:177][441]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.11.08-11.23.33:183][441]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module SubstanceEditor (139)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.11.08-11.23.33:402][441]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.11.08-11.23.33:403][441]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.11.08-11.23.33:404][441]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.11.08-11.23.33:404][441]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.11.08-11.23.33:404][441]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.11.08-11.23.33:405][441]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.11.08-11.23.33:405][441]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.11.08-11.23.33:505][441]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2016.11.08-11.23.33:505][441]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.11.08-11.23.33:505][441]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.11.08-11.23.33:505][441]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.11.08-11.23.33:505][441]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.11.08-11.23.33:505][441]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.11.08-11.23.33:507][441]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.11.08-11.23.33:508][441]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.11.08-11.23.33:512][441]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.11.08-11.23.33:512][441]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.11.08-11.23.33:512][441]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.11.08-11.23.33:512][441]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.11.08-11.23.33:512][441]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.11.08-11.23.33:512][441]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.11.08-11.23.33:512][441]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.08-11.23.33:512][441]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jeremie/Documents/Unreal Projects/GitGameProg/Game1/Content/' was aborted.
+[2016.11.08-11.23.33:512][441]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.08-11.23.33:513][441]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.11.08-11.23.33:696][441]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.11.08-11.23.33:696][441]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.11.08-11.23.33:696][441]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.11.08-11.23.33:696][441]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.11.08-11.23.33:767][441]LogDerivedDataCache: Shutdown
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.11.08-11.23.33:767][441]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.11.08-11.23.33:768][441]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.08-11.23.33:768][441]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.08-11.23.33:768][441]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.08-11.23.33:768][441]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAEE35507-4725-B634-F5A9-27BDBF56804B%7D&AppID=UEEditor.Rocket.Release&AppVersion=%2B%2BUE4%2BRelease-4.13-CL-3106830&UserID=7427c70546b03c75682dfd922bcb188e%7C7063918164d34366a35f01cc4397128a%7Ce11dd623-425c-43ea-8dec-12cfe46a8a95&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.08-11.23.33:770][441]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.08-11.23.33:770][441]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.08-11.23.33:771][441]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.08-11.23.33:771][441]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.08-11.23.33:771][441]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.08-11.23.33:774][441]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.08-11.23.33:783][441]LogExit: Exiting.
+[2016.11.08-11.23.33:818][441]Log file closed, 11/08/16 12:23:33
